@@ -7,5 +7,17 @@
 #mi-id {font-size: 50px;}
 
 
+button {
+    background-color: grey; /*color inicial del boton*/
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: blue; /* color del boton cuando el raton pasa por encima */
+}
+
 
 
