@@ -15,6 +15,14 @@ button {
     cursor: pointer;
 }
 
+
+.mi-clase2 {
+    background-color: rgb(210, 210, 223);
+}
+
+span
+
+
 button:hover{
     background-color: blue; /* color del boton cuando el raton pasa por encima */
 }
