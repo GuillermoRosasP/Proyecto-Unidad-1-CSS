@@ -17,10 +17,9 @@ button {
 
 
 .mi-clase2 {
-    background-color: rgb(210, 210, 223);
+    span {color: aqua;
+    }
 }
-
-span
 
 
 button:hover{
