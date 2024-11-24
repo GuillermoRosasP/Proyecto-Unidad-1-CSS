@@ -56,6 +56,12 @@ a{
     margin-bottom: 2%;
 }
 
+#seccionverdetext2{
+    margin-right: 1%;
+    margin-top: 7%;
+}
+
+
 .SeccionVerde img{
     width: 40vw;
     height: auto;
@@ -76,21 +82,157 @@ a{
     text-align: center;
 }
 
+#seccionazultext{
+    margin-left: 2%;
+    margin-top: 7%;
+}
+
 .seccionazul img{
     width: 40vw;
     height: auto;
 }
 
 
+#SeccionRoja {
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(112, 21, 21);
+    align-items: center;
+    justify-content: center;
+    color: white;
+    margin-bottom: 2%;
+    margin-left: 10vw;
+    margin-right: 10vw;   
+    text-align: center;
+}
+
+
+#seccionrojatext{
+    margin-right: 2.5%;
+}
+
+
+#SeccionRoja img{
+    width: 40vw;
+    height: auto;
+}
+
+
+#Seccionverde2{
+    display: flex;
+    flex-direction: row-reverse;
+    background-color: rgb(22, 58, 22);
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    color: white;
+    margin-bottom: 2%;
+    margin-left: 10vw;
+    margin-right: 10vw;   
+    text-align: center;
+}
+
+#seccionverde2text{
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+#Seccionverde2 img{
+    width: 40vw;
+    height: auto;
+}
+
+#Seccionrojayazul{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(114, 41, 41);
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    color: white;
+    margin-bottom: 2%;
+    margin-left: 10vw;
+    margin-right: 10vw;   
+    text-align: center;
+}
+
+#Seccionrojayazul img{
+    width: 40vw;
+    height: auto;
+}
+
+
+#Seccionrojayazultext{
+    margin-right: 2%;
+}
+
+
+
+#seccionrojafinal{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(214, 128, 128);
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    color: white;
+    margin-bottom: 2%;
+    margin-left: 10vw;
+    margin-right: 10vw;   
+    text-align: center;
+}
+
+#seccionrojafinal img{
+    width: 77vw;
+    height: auto;
+}
+
+#seccionrojatextfinal{
+    margin-bottom: 15%;
+    color: rgb(201, 50, 50);
+}
+
+
+
+#seccionazulfinal{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(72, 72, 235);
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    color: white;
+    margin-bottom: 2%;
+    margin-left: 10vw;
+    margin-right: 10vw;   
+    text-align: center;
+}
+
+#seccionazulfinal img{
+    width: 77vw;
+    height: auto;
+}
+
+#seccionazultextfinal{
+    margin-bottom: 15%;
+    color: rgb(151, 151, 221);
+}
+
+
+#seccionfinal{
+    display: flex;
+    flex-direction: row;
+}
+
+#elfooter{
+    display: flex;
+    flex-direction: row;
+}
+
 
 button{
     background-color: rgb(122, 48, 48);
     color: rgb(82, 33, 33);
-    border-radius: 15px;
-    margin-top: 5px;
-    width: 25vw;
-    height: 15vh;
-    margin-left: 5vw;
 }
 
 button :hover{
@@ -98,4 +240,9 @@ button :hover{
    
 }
 
-
+botones
+border-radius: 5px;
+margin-top: 5px;
+width: 25vw;
+height: 15vh;
+margin-left: 5vw;
