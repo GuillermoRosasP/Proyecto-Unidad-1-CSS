@@ -1,25 +1,8 @@
 
-.navleft{
+nav img{
     width: 25vh;
 }
 
-.navbar{
-    font-size: 50px;
-    display: flex;
-    
-}
-
-
-.navleft{
-    display: flex;
-    flex-direction: row;
-}
-
-
-.navright{
-    display: flex;
-    flex-direction: row;
-}
 
 
 body{
@@ -28,6 +11,24 @@ body{
     align-items: center;
 }
 
+
+#barra{
+    display: flex;
+    flex-direction: row;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+#izquierda{
+    display: flex;
+    flex-direction: row;
+    margin-right: 30%;
+}
+
+#Derecha{
+    display: flex;
+    flex-direction: row;
+}
 
 ul{
     flex-direction: row;
@@ -38,7 +39,7 @@ ul{
 a{
     color: black;
     text-decoration: none;
-
+    margin: 20px;
 }
 
 
@@ -49,11 +50,10 @@ a{
     background-color: #1e3932;
     justify-content: center;
     color: white;
-    margin-top: 10vw;
-    margin-bottom: 10vw;
-    margin-left: 10vw;
+    text-align: center;
+    margin-left: 10%;
     margin-right: 10vw;
-    
+    margin-bottom: 2%;
 }
 
 .SeccionVerde img{
@@ -70,8 +70,7 @@ a{
     background-color: rgb(47, 49, 182);
     justify-content: center;
     color: white;
-    margin-top: 10px;
-    margin-bottom: 10vw;
+    margin-bottom: 2%;
     margin-left: 10vw;
     margin-right: 10vw;
     text-align: center;
@@ -81,6 +80,7 @@ a{
     width: 40vw;
     height: auto;
 }
+
 
 
 button{
@@ -95,7 +95,7 @@ button{
 
 button :hover{
     background-color: rgb(124, 75, 75);
+   
 }
-
 
 
