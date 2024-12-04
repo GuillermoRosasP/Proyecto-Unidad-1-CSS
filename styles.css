@@ -4,7 +4,6 @@ nav img{
 }
 
 
-
 body{
     align-content: center;
     justify-content: center;
@@ -12,11 +11,15 @@ body{
 }
 
 
+
+
+
 #barra{
     display: flex;
     flex-direction: row;
     font-size: 18px;
     font-weight: 700;
+    margin-bottom: 2%;
 }
 
 #izquierda{
@@ -29,6 +32,8 @@ body{
     display: flex;
     flex-direction: row;
 }
+
+
 
 ul{
     flex-direction: row;
@@ -219,30 +224,148 @@ a{
 }
 
 
+
 #seccionfinal{
     display: flex;
     flex-direction: row;
 }
 
-#elfooter{
+#Redes-sociales{
+    display: flex;
+    justify-content: center;
+}
+
+
+#Footer-Index{
+    display: flex;
+    justify-content: center;
+}
+
+#Seccion-final-index{
     display: flex;
     flex-direction: row;
+    text-align: left;
+}
+
+#elfooter{
+    display: flex;
+    justify-content: center;
 }
 
 
 button{
-    background-color: rgb(122, 48, 48);
-    color: rgb(82, 33, 33);
+    background-color: rgb(197, 187, 187);
+    color: rgb(31, 27, 27);
 }
 
 button :hover{
-    background-color: rgb(124, 75, 75);
+    background-color: #b1a9be;
    
 }
+/*header fijo de rewards*/
 
-botones
-border-radius: 5px;
-margin-top: 5px;
-width: 25vw;
-height: 15vh;
-margin-left: 5vw;
+.Fixed-header{
+    background-color: white;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 10;
+}
+
+.BodyRewards{
+    display: flex;
+    margin-left: 50%;
+    align-content: center;
+}
+
+#seccionfinal{
+    display: flex;
+    margin-left: 50%;
+}
+
+#Redes-sociales{
+    display: flex;
+    margin-left: 50%;
+}
+
+#elfooter{
+    display: flex;
+    margin-left: 50%;
+}
+
+
+.Seccion-fija{
+    position: fixed;
+    background-color: #1e3932;
+    color: white;
+    justify-content: center;
+    margin-right: 50%;
+    padding: 16%;
+}
+
+
+#boton-header1{
+    background-color: white;
+    color: black;
+
+}
+
+#seccionprincipal{
+    margin-top: 15%;
+}
+
+#Seccion-con-color{
+
+}
+
+/*estilo de secciones*/
+
+#titulo-cerca-al-nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10%;
+    margin-left: 50%;
+}
+
+#titulo2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 50%;
+}
+
+
+#seccioninicial{
+    display: flex;
+    align-items: center;
+}
+
+/*estilo de secciones*/
+
+
+
+
+#seccion3{
+    background-color: rgb(177, 177, 177);
+}
+
+
+#seccioncolorgris{
+    background-color: rgb(177, 177, 177);
+}
+
+
+#secciongris2{
+    background-color: rgb(177, 177, 177);
+}
+
+
+#secciongris3{
+   background-color: rgb(177, 177, 177);
+}
+
+
+
+
+

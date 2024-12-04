@@ -3,16 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!--Icono en la Pestaña-->
-    <link rel="icon" href="https://1000marcas.net/wp-content/uploads/2019/12/Starbucks-logo.jpg">
-    <title>Rewards</title>
     <!--Vinculando el archivo CSS externo-->
-    <link rel="stylesheet" href="styles2.css">
+    <link rel="stylesheet" href="styles.css">
+    <!--Icono en la Pestaña-->
+    <link rel="icon" href="https://1000marcas.net/wp-content/uploads/2019/12/Starbucks-logo.jpg"> 
+    <title>Rewards</title>
 </head>
 
-<header>
-    <nav>
-        <section>
+<header class="Fixed-header">
+    <nav id="barra">
+        <section id="izquierda">
             <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRXi6FLXONZeuwA4-xK7Gy8Sh7vi2I1HnviHg&s" alt="">
             <ul>
                 <li><a href="https://www.starbucks.com.mx/menu">Menu</a></li>
@@ -20,11 +20,13 @@
             </ul>
         </section>
 
-        <section>
+        <section id="Derecha" >
             <ul>
                 <li><a href="https://www.starbucks.com.mx/stores">Localizar Tienda</a></li>
-                <li><a href="https://rewards.starbucks.mx/login">Ingresar</a></li>
-                <li><a href="https://rewards.starbucks.mx/register">Unete</a></li>
+                <li><button id="boton-header1"><a href="https://rewards.starbucks.mx/login">Inicia Sesión</a></button></li>
+            </ul>
+            <ul>
+                <li><button id="boton-header2"><a href="https://rewards.starbucks.mx/login">Unete Ahora</a></button></li>
             </ul>
         </section>
     </nav>
@@ -32,151 +34,182 @@
 
 
 <body>
+
+<!--Primera seccion-->
     <section>
-        <h1>Únete a Starbucks Rewards y desbloquea beneficios al ser socio Nivel Green, todo mientras obtienes estrellas</h1>
-        <section>
-            <a href="https://rewards.starbucks.mx/img/2023/06/nuevos-lanzamientos.png"> </a>
-            <p>Disfruta antes que nadie de lanzamientos exclusivos</p>
+        <section class="Seccion-fija">
+            <h1>Starbucks Rewards</h1>
+            <p>Holaaa, Cafe Gratis</p>
+            <button>inicia Sesión</button>
+            <button>Unete Ahora</button>
         </section>
 
-        <section>
-            <a href="https://rewards.starbucks.mx/img/2023/06/refill-cafe.png"> </a>
-            <p>Rellena tu vaso de café del día</p>
+        <section id="titulo-cerca-al-nav">
+            <h1>Únete a Starbucks Rewards y desbloquea beneficios al ser socio Nivel Green, todo mientras obtienes estrellas</h1> 
         </section>
-
-        <section>
-            <a href="https://rewards.starbucks.mx/img/2023/06/cumplea%C3%B1os.png"> </a>
-            <p>Ven por tu bebida de cumpleaños</p>
-        </section>
-
-        <section>
-            <a href="https://rewards.starbucks.mx/img/2023/06/ofertas-personalizadas.png"> </a>
-            <p>Ofertas exclusivas y personalizadas para ti</p>
-        </section>
-    </section>
-
-
-    <section>
-        <h1>Obtén más beneficios al llegar a nivel Gold con 200 estrellas</h1>
-        section 
-
-        <section>
-            <a href="Pieza de panadería de bienvenida al Nivel Gold"></a>
-            <p>https://rewards.starbucks.mx/img/2023/06/panaderia-bienvenida.png</p>
-        </section>
-
-        <section>
-            <a href="https://rewards.starbucks.mx/img/2023/06/card-gold.png"> </a>
-            <p>Tarjeta Gold Digital</p>
-        </section>
-
-        <section>
-            <a href="https://rewards.starbucks.mx/img/2023/06/100-estrellas.png"> </a>
-            <p>Bebida o pieza de panadería por cada 100 Estrellas acumuladas</p>
-        </section>
-
-        <section>
-            <a href="https://rewards.starbucks.mx/img/2023/06/15-estrellas-aniversario.png"></a>
-            <p>15 Estrellas cada aniversario</p>
-        </section>
-
-        <section>
-            <a href="https://rewards.starbucks.mx/img/2023/06/refill-cafe.png"></a>
-            <p>Rellena tu vaso de café del día</p>
-        </section>
-
-        <section>
-            <a href="https://rewards.starbucks.mx/img/2023/06/ofertas-personalizadas.png"></a>
-            <p>Ofertas exclusivas y personalizadas para ti</p>
-        </section>
-
-        <section>
-            <a href="https://rewards.starbucks.mx/img/2023/06/cumplea%C3%B1os.png"></a>
-            <p>Ven por tu bebida de cumpleaños</p>
-        </section>
-
-        <section>
-            <a href="https://rewards.starbucks.mx/img/2023/06/nuevos-lanzamientos.png"></a>
-            <p>Disfruta antes que nadie de lanzamientos exclusivos</p>
-        </section>
-    </section>
-
-
-    <section>
-        <h1>Tus cafés se convierten en estrellas y recompensas increíbles</h1>
-        <a href="https://rewards.starbucks.mx/img/2023/06/valor-estrella-sbx.png"></a>
-        <p>Obtén una estrella por cada $10
-            pagando con Starbucks card.</p>
-        <a href="https://rewards.starbucks.mx/img/2023/06/valor-estrella-efectivo.png"></a>
-        <p>U obtén una estrella por cada $20
-            pagando con efectivo o tarjeta bancaria.</p>
-    </section>
-
-
-    <section>
-        <h1>Obtén estrellas y gana recompensas
-            Así es como funciona:</h1>
-        <a href="https://imgur.com/a/A6yyy87"></a>
-        <a href="https://imgur.com/a/J05spr4"></a>
-        <a href="https://imgur.com/a/KQN7wRL"></a>
-        <a href="https://rewards.starbucks.mx/img/2023/06/chica-sbx.png"></a>
-    </section>
-
-    <section>
-        <iframe width="455" height="360" src="https://www.youtube.com/embed/82Tcz85ZdG4" title="Ordena y paga como quieras con Starbucks Rewards" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-    </section>
-    
-    <section>
-        <h1>Ordena y paga como quieras</h1>
-        <section>
-            <a href="https://rewards.starbucks.mx/img/2023/06/estrella.png"></a>
-            <p>1 estrella por cada $20</p>
-            <a href="https://rewards.starbucks.mx/img/2023/06/efectivo.png"></a>
-            <p>Escanea el código QR y paga en efectivo o con tarjeta bancaria. SIN RECARGAR</p>
-            <a href="https://rewards.starbucks.mx/img/2023/06/tarjeta-credito.png"></a>
-            <p>Añade tu tarjeta bancaria en la App, escanea y paga desde tu celular. SIN RECARGAR</p>
-        </section>
-
-        <section>
-            <a href="https://rewards.starbucks.mx/img/2023/06/estrella.png"></a>
-            <p>1 estrella por cada $10</p>
-            <a href="https://rewards.starbucks.mx/img/2023/06/sbx-pago.png"></a>
-            <p>Escanea y paga con Starbucks Card la forma más fácil y rápida de obtener recompensas</p>
-            <a href="https://rewards.starbucks.mx/img/2023/06/tarjetas-sbx.png"></a>
-            <p>Colecciona, activa, registra, recarga y paga con tu Starbucks Card favorita.</p>
-        </section>
-    </section>
-
-
-    <section>
-        <h1>Personaliza tu experiencia con tu Starbucks Card® Favorita</h1>
-        <p>Coleccionar y/o regalar Starbucks Card, también te da recompensas
-            Activa, registra y recarga para poder disfrutar de los beneficios y seguir acumulando Estrellas</p>
-
-        <a href="https://rewards.starbucks.mx/img/2023/06/sbx-cards.gif"></a>
-    </section>
-
-
-    <section>
-        <h1>Una experiencia llena de recompensas y beneficios con tus favoritos
-        </h1>
-
-        <a href="https://rewards.starbucks.mx/img/2023/06/estrellas-65.gif"></a>
-        <p>Descarga la app Starbucks México, es una opción de pago sin
-            contacto, cada que vengas paga con ella, acumula estrellas
-            y obtén recompensas.</p>
+        <section class="BodyRewards" id="seccioninicial">
+            <section>
+                <img src="https://i.postimg.cc/8C9CZM27/1.png" width="100px">
+                <p>Disfruta antes que nadie de lanzamientos exclusivos</p>
+            </section>
         
+            <section id="Secciones-pequeñas">
+                <img src="https://i.postimg.cc/t42fGHN6/2.png" width="100px">
+                <p>Rellena tu vaso de café del día</p>
+            </section>
         
-    </section>
+            <section id="Secciones-pequeñas" >
+                <img src="https://i.postimg.cc/V6xs9tSz/3.png" width="100px">
+                <p>Ven por tu bebida de cumpleaños</p>
+            </section>
+        
+            <section id="Secciones-pequeñas">
+                <img src="https://i.postimg.cc/NFF8XWr3/4.png" width="100px">
+                <p>Ofertas exclusivas y personalizadas para ti</p>
+            </section>
+        </section>
 
+<!--Segunda seccion-->
+        <section id="titulo2">
+            <h1>Obtén más beneficios al llegar a nivel Gold con 200 estrellas</h1>
+        </section>
+        <section class="BodyRewards" id="seccioninicial">
+            <section id="Secciones-pequeñas">
+                <img src="https://rewards.starbucks.mx/img/2023/06/panaderia-bienvenida.png" alt="imagen">
+                <p>Pieza de panadería de bienvenida al Nivel Gold</p>
+            </section>
     
+            <section id="Secciones-pequeñas">
+                <img src="https://rewards.starbucks.mx/img/2023/06/card-gold.png" alt="imagen">
+                <p>Tarjeta Gold Digital</p>
+            </section>
+    
+            <section id="Secciones-pequeñas">
+                <img src="https://rewards.starbucks.mx/img/2023/06/100-estrellas.png" alt="imagen">
+                <p>Bebida o pieza de panadería por cada 100 Estrellas acumuladas</p>
+            </section>
+    
+            <section id="Secciones-pequeñas">
+                <img src="https://rewards.starbucks.mx/img/2023/06/15-estrellas-aniversario.png" alt="imagen">
+                <p>15 Estrellas cada aniversario</p>
+            </section>
+    
+            <section id="Secciones-pequeñas">
+                <img src="https://rewards.starbucks.mx/img/2023/06/refill-cafe.png" alt="imagen">
+                <p>Rellena tu vaso de café del día</p>
+            </section>
+    
+            <section id="Secciones-pequeñas">
+                <img src="https://rewards.starbucks.mx/img/2023/06/ofertas-personalizadas.png" alt="imagen">
+                <p>Ofertas exclusivas y personalizadas para ti</p>
+            </section>
+    
+            <section id="Secciones-pequeñas">
+                <img src="https://rewards.starbucks.mx/img/2023/06/cumplea%C3%B1os.png" alt="imagen">
+                <p>Ven por tu bebida de cumpleaños</p>
+            </section>
+    
+            <section id="Secciones-pequeñas">
+                <img src="https://rewards.starbucks.mx/img/2023/06/nuevos-lanzamientos.png" alt="imagen">
+                <p>Disfruta antes que nadie de lanzamientos exclusivos</p>
+            </section>
+        </section>
+    
+    
+        <section class="BodyRewards" id="seccion3">
+            <section>
+                    <h1>Tus cafés se convierten en estrellas y recompensas increíbles</h1>
+                    <img src="https://rewards.starbucks.mx/img/2023/06/valor-estrella-sbx.png" alt="imagen">
+                    <p>Obtén una estrella por cada $10
+                        pagando con Starbucks card.</p>
+                    <img src="https://rewards.starbucks.mx/img/2023/06/valor-estrella-efectivo.png" alt="imagen">
+                    <p>U obtén una estrella por cada $20
+                        pagando con efectivo o tarjeta bancaria.</p>
+            </section>
+        </section>
+    
+    
+        <section class="BodyRewards">
+            <section>
+                <h1>Obtén estrellas y gana recompensas
+                    Así es como funciona:</h1>
+                <img src="https://imgur.com/a/A6yyy87" alt="imagen">
+                <img src="https://imgur.com/a/J05spr4" alt="imagen">
+                <img src="https://imgur.com/a/KQN7wRL" alt="imagen">
+                <img src="https://rewards.starbucks.mx/img/2023/06/chica-sbx.png" alt="imagen">
+            </section>
+        </section>
+    
+        <section class="BodyRewards">
+            <iframe width="455" height="360" src="https://www.youtube.com/embed/82Tcz85ZdG4" title="Ordena y paga como quieras con Starbucks Rewards" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </section>
+        
+        <section class="BodyRewards" id="seccioncolorgris">
+            <section>
+                <h1>Ordena y paga como quieras</h1>
+                <img src="https://rewards.starbucks.mx/img/2023/06/estrella.png" alt="imagen">
+                <p>1 estrella por cada $20</p>
+                <img src="https://rewards.starbucks.mx/img/2023/06/efectivo.png" alt="imagen">
+                <p>Escanea el código QR y paga en efectivo o con tarjeta bancaria. SIN RECARGAR</p>
+                <img src="https://rewards.starbucks.mx/img/2023/06/tarjeta-credito.png" alt="imagen">
+                <p>Añade tu tarjeta bancaria en la App, escanea y paga desde tu celular. SIN RECARGAR</p>
+            </section>
+        </section>
+
+        <section class="BodyRewards">
+            <section>
+                <img src="https://rewards.starbucks.mx/img/2023/06/estrella.png" alt="imagen">
+                <p>1 estrella por cada $10</p>
+                <img src="https://rewards.starbucks.mx/img/2023/06/sbx-pago.png" alt="imagen">
+                <p>Escanea y paga con Starbucks Card la forma más fácil y rápida de obtener recompensas</p>
+                <img src="https://rewards.starbucks.mx/img/2023/06/tarjetas-sbx.png" alt="imagen">
+                <p>Colecciona, activa, registra, recarga y paga con tu Starbucks Card favorita.</p>
+            </section>
+        </section>
+
+        <section class="BodyRewards" id="secciongris2">
+            <section>
+                <h1>Personaliza tu experiencia con tu Starbucks Card® Favorita</h1>
+                <p>Coleccionar y/o regalar Starbucks Card, también te da recompensas
+                Activa, registra y recarga para poder disfrutar de los beneficios y seguir acumulando Estrellas</p>
+                <img src="https://rewards.starbucks.mx/img/2023/06/sbx-cards.gif" alt="imagen">
+            </section>
+        </section>
+    
+    
+        <section class="BodyRewards">
+            <section>
+                <h1>Una experiencia llena de recompensas y beneficios con tus favoritos</h1>
+                <img src="https://rewards.starbucks.mx/img/2023/06/estrellas-65.gif" alt="imagen">
+                <p>Descarga la app Starbucks México, es una opción de pago sin
+                contacto, cada que vengas paga con ella, acumula estrellas
+                y obtén recompensas.</p>
+                <a href="https://apps.apple.com/mx/app/starbucks-m%C3%A9xico/id570779372"></a><img src="https://rewards.starbucks.mx/items/4fe2e05c02a54cec809c3926b2fc1f23.png" alt="imagen"> 
+                <a href="https://play.google.com/store/apps/details?id=com.starbucks.mx&pli=1"> <img src="https://rewards.starbucks.mx/items/F9E95B11CA554D399139CE1BEDC36A10.png" alt="imagen"></a>
+               <h3>¡Tus cafés se convierten en estrellas y recompensas increíbles!</h3>
+               <img src="https://rewards.starbucks.mx/img/2023/06/gold-pan.png" alt="imagen">
+            </section>
+        </section>
+    
+        <section class="BodyRewards" id="secciongris3">
+            <img src="https://rewards.starbucks.mx/img/2023/06/icono.png" alt="imagen">
+            <section>
+                <h4>Conoce más</h4>
+                <p>Consulta las preguntas frecuentes</p>
+                <a href="https://rewards.starbucks.mx/faq/rewards">aquí</a>
+                <p>  Ver términos y condiciones</p>
+                <a href="https://rewards.starbucks.mx/tos/rewards">aquí</a>
+            </section>
+            <img src="https://rewards.starbucks.mx/img/2023/06/logo.png" alt="imagen">
+        </section>
+    </section>
 </body>
 
 
 
 <!--Seccion Final-->
 <footer>
-    <section>
+    <section id="seccionfinal">
         <section>
             <h4>Sobre Nosotros</h4>
             <p><a href="https://historias.starbucks.com/es/">Historias Starbucks</a></p>
@@ -193,7 +226,7 @@
 
     <!--Seccion Redes Sociales-->
 
-    <section>
+    <section id="Redes-sociales">
         <a href="https://www.facebook.com/StarbucksMexico"> <img src="https://i.postimg.cc/TYPWvtd1/facebbok.jpg" alt="faceboolk"></a>
         <a href="https://www.instagram.com/starbucksMex/"> <img src="https://i.postimg.cc/dtSZsG3B/instagram.jpg" alt="instagram"></a>
         <a href="https://twitter.com/StarbucksMex"> <img src="https://i.postimg.cc/y8ggkWSz/Twiter.jpg" alt="Twiter"></a>
@@ -201,17 +234,23 @@
     </section>
 
 
-    <section>
-        <section><a href="https://www.starbucks.com.mx/articulo/accesibilidad-web">Accesibilidad Web</a></section>
-        <section><a href="https://www.starbucks.com.mx/articulo/aviso-de-privacidad">Aviso de Privacidad</a></section>
-        <section><a href="https://www.starbucks.com.mx/seccion/boletines">Boletines</a></section> 
-        <section><a href="https://www.starbucks.com.mx/articulo/condiciones-de-uso-1">Condiciones de uso</a></section>
-        <section><a href="https://www.starbucks.com.mx/articulo/mapa-del-sitio">Mapa del sitio</a></section> 
-        <section><a href="https://www.starbucks.com.mx/articulo/preferencias-sobre-cookie">Preferencias sobre cookies</a></section>
+    <section id="elfooter">
+        <section><a href="https://www.starbucks.com.mx/articulo/accesibilidad-web">Accesibilidad Web | </a></section>
+        <section><a href="https://www.starbucks.com.mx/articulo/aviso-de-privacidad">Aviso de Privacidad | </a></section>
+        <section>
+            <a href="https://www.starbucks.com.mx/seccion/boletines">Boletines | </a>
+        </section>
+        <section><a href="https://www.starbucks.com.mx/articulo/condiciones-de-uso-1">Condiciones de uso | </a></section>
+        <section><a href="https://www.starbucks.com.mx/articulo/mapa-del-sitio">Mapa del sitio | </a></section>
+        <section><a href="https://www.starbucks.com.mx/articulo/preferencias-sobre-cookie">Preferencias sobre cookies | </a></section>
+    </section>
+        
+    <section id="elfooter">
+            <p>Ⓒ 2024. Starbucks Cofee Company. Reservados todos los derechos
+                mx | prod | 5efee83dd153c6a598a78f0bf36e131f98ed3eba | 04/11/2024-05:34:23:403</p>
     </section>
 
-    <p>Ⓒ 2024. Starbucks Cofee Company. Reservados todos los derechos
-        mx | prod | 5efee83dd153c6a598a78f0bf36e131f98ed3eba | 04/11/2024-05:34:23:403</p>
+
 </footer>
 
 </html>
