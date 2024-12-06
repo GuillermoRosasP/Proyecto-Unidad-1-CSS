@@ -274,9 +274,13 @@ button :hover{
 
 .BodyRewards{
     display: flex;
-    margin-left: 50%;
+    margin-left: 46%;
+    justify-content: center;
     align-content: center;
+    text-align: center;
 }
+
+
 
 #seccionfinal{
     display: flex;
@@ -322,28 +326,58 @@ button :hover{
 
 #titulo-cerca-al-nav{
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
+    text-align: center;
     margin-top: 10%;
     margin-left: 50%;
 }
 
-#titulo2{
+
+
+#centrartitulo{
     display: flex;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
-    margin-left: 50%;
+    text-align: center;
 }
+
+#seccionflexwrap{
+    display: flex;
+    align-items: left;
+    margin-left: 47%;
+}
+
+#contenedor{
+    display: block;
+    flex-direction: column-reverse;
+    
+}
+
 
 
 #seccioninicial{
     display: flex;
     align-items: center;
+    justify-content: center;
+   
 }
 
 /*estilo de secciones*/
 
+#estrellas{
+    display: flex;
+    justify-content: center;
+    
+}
 
+#imagen-final{
+    display: flex;
+    flex-direction: row;
+    margin-left: 50%;
+
+}
 
 
 #seccion3{
@@ -366,6 +400,16 @@ button :hover{
 }
 
 
+#seccioncolorgris6{
+    display: flex;
+    flex-direction: row;
+    margin-left: 46%;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    margin-top: .5%;
+    background-color: rgb(177, 177, 177);
+}
 
 
-
+   
