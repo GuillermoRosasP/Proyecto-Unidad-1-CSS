@@ -1,0 +1,32 @@
+
+
+
+
+.Fixed-header{
+    background-color: white;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 10;
+}
+
+
+
+
+
+#seccionfinal{
+    display: flex;
+}
+
+
+
+#Redes-sociales{
+    display: flex;
+}
+
+
+#elfooter{
+    display: flex;
+}
+
+
