@@ -5,33 +5,127 @@
     margin-top: 10%;
 }
 
-.SeccionBebidas{
+.seccionbebidas{
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
+    gap: 10%;
+    margin-bottom: 5%;
+}
+
+.seccionalimentos{
+    display: flex;
+    flex-direction: row;
+}
+
+.seccioncafeengrano{
+    display: flex;
+    flex-direction: row;
+}
+
+#tituloCafeengrano{
+    margin-top: 5%;
+}
+
+.Tiruloalimentos{
+    margin-top: 10%;
+}
+
+#seccionsobrenosotros{
+    margin-top: 5%;
+}
+
+#botonalimentos img{
+    margin-top: 55%;
+
+}
+
+#botonalimentos span{
+    margin-top: 10%;
+}
+
+#Botoncafeengrano img{
+    margin-top: 45%;
+}
+
+
+/*botones*/
+.button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: #4a8f80; /* Color de fondo */
+    border: 5px solid #b8e0d6; /* Borde del botón */
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra */
+    transition: transform 0.2s ease;
+  }
+
+  .button img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    justify-content: center;
+    align-content: center;
+    margin-top: 10%;
+
+  }
+
+  .button:hover {
+    transform: scale(1.05); /* Efecto al pasar el cursor */
+  }
+
+  .button span {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    color: #333;
+    text-align: center;
     justify-content: center;
     align-items: center;
-    text-align: center;
-    gap: 50px;
-
-}
+    margin-top: 10%;
+  }
 
 
-#Seccionalimentos{
-    display: flex;
-    flex-direction: row;
-    justify-content: left;
-    text-align: center;
-
-}
-
-#SeccioncafeenGrano{
-    display: flex;
-    flex-direction: row;
-    justify-content: left;
-    text-align: center;
-}
-
+  .boton {
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+    cursor: pointer;
+    outline: none;
+    text-transform: capitalize; /* Para mantener el acento */
+    
+  }
 
 
+  .boton:hover {
+    background-color: #333; /* Un color más claro para el hover */
+  }
 
+
+
+
+
+
+
+  .btn-ingresar {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    color: black;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 20px; /* Esto hace los bordes redondeados */
+    padding: 10px 20px; /* Espaciado interno */
+    cursor: pointer;
+    transition: all 0.3s ease; /* Animación suave al interactuar */
+  }
+  
+  .btn-ingresar:hover {
+    background-color: #f0f0f0; /* Cambio de color al pasar el cursor */
+  }
