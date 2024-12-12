@@ -406,4 +406,91 @@ a{
 }
 
 
-   
+/*boton rojo*/
+
+.custom-button {
+    background-color: #ffc0cb; /* Color rosa de fondo */
+    color: #ff0000; /* Texto en rojo */
+    border: 2px solid #ff0000; /* Borde rojo */
+    border-radius: 20px; /* Bordes redondeados */
+    padding: 10px 20px; /* Espaciado interno */
+    font-size: 16px; /* Tamaño del texto */
+    font-family: Arial, sans-serif; /* Fuente */
+    cursor: pointer; /* Cambia el cursor al pasar por encima */
+    text-align: center;
+    display: inline-block;
+  }
+  
+  .custom-button:hover {
+    background-color: #ffb3b3; /* Cambio de color al pasar el cursor */
+  }
+
+/*boton rojo*/
+
+.custom-buttonAzul{
+    background-color: #6755a5; /* Color rosa de fondo */
+    color: #9d9bc5; /* Texto en rojo */
+    border: 2px solid #3c2d70; /* Borde rojo */
+    border-radius: 20px; /* Bordes redondeados */
+    padding: 10px 20px; /* Espaciado interno */
+    font-size: 16px; /* Tamaño del texto */
+    font-family: Arial, sans-serif; /* Fuente */
+    cursor: pointer; /* Cambia el cursor al pasar por encima */
+    text-align: center;
+    display: inline-block;
+
+}
+
+.custom-buttonAzul:hover {
+    background-color: #a392be; /* Cambio de color al pasar el cursor */
+  }
+
+/*botonrojo*/
+
+
+
+
+
+.boton {
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+    cursor: pointer;
+    outline: none;
+    text-transform: capitalize; /* Para mantener el acento */
+    
+    
+  }
+
+
+  .boton:hover {
+    background-color: #333; /* Un color más claro para el hover */
+  }
+
+
+
+
+
+
+
+  .btn-ingresar {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    color: black;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 20px; /* Esto hace los bordes redondeados */
+    padding: 10px 20px; /* Espaciado interno */
+    cursor: pointer;
+    transition: all 0.3s ease; /* Animación suave al interactuar */
+    
+  }
+  
+  .btn-ingresar:hover {
+    background-color: #f0f0f0; /* Cambio de color al pasar el cursor */
+  }
+
