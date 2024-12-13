@@ -266,9 +266,47 @@ a{
     z-index: 10;
 }
 
+.SeccionfijaBotonBlanco{
+    background-color: #1e3932;
+    color: rgb(255, 255, 255);
+    border-color: #f0f0f0;
+    border-radius: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+    cursor: pointer;
+    outline: none;
+    text-transform: capitalize; /* Para mantener el acento */
+}
+
+
+.SeccionfijaBotonBlanco:hover{
+    background-color: #739b7f; /* Un color más claro para el hover */
+}
+
+
+.SeccionfijaBotonVerde{
+    background-color: #ffffff;
+    color: rgb(70, 83, 74);
+    border-color: #f0f0f0;
+    border-radius: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+    cursor: pointer;
+    outline: none;
+    text-transform: capitalize; /* Para mantener el acento */
+}
+
+.SeccionfijaBotonVerde:hover{
+    background-color: #739b7f; /* Un color más claro para el hover */
+}
+
+
+
 .BodyRewards{
     display: flex;
-    margin-left: 46%;
+    margin-left: 50%;
     justify-content: center;
     align-content: center;
     text-align: center;
@@ -278,28 +316,43 @@ a{
 
 #seccionfinal{
     display: flex;
-    margin-left: 50%;
+    margin-left: 51%;
 }
 
 #Redes-sociales{
     display: flex;
-    margin-left: 50%;
+    margin-left: 51%;
 }
 
 #elfooter{
     display: flex;
-    margin-left: 50%;
+    margin-left: 51%;
 }
 
 
 .Seccion-fija{
+    display: flex;
+    flex-direction: column;
     position: fixed;
     background-color: #1e3932;
     color: white;
     justify-content: center;
-    margin-right: 50%;
-    padding: 16%;
+    align-items: center;
+    text-align: center;
+    margin-right: 60%;
+    padding: 15%;
+    
 }
+
+.BotonesSeccionFija{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
 
 
 #boton-header1{
@@ -323,7 +376,7 @@ a{
     justify-content: flex-start;
     align-items: center;
     text-align: center;
-    margin-top: 10%;
+    margin-top: 12%;
     margin-left: 50%;
 }
 
@@ -397,7 +450,7 @@ a{
 #seccioncolorgris6{
     display: flex;
     flex-direction: row;
-    margin-left: 46%;
+    margin-left: 50%;
     justify-content: center;
     align-content: center;
     text-align: center;
@@ -448,7 +501,27 @@ a{
 /*botonrojo*/
 
 
+/*BotonRojoConoceMas*/
 
+.BotonRojoConoceMas{
+    background-color: rgb(139, 89, 89);
+    color: white;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+    cursor: pointer;
+    outline: none;
+    text-transform: capitalize; /* Para mantener el acento */
+}
+
+
+.BotonRojoConoceMas:hover{
+    background-color: #ff0000;
+}
+
+/*BotonRojoConoceMas*/
 
 
 .boton {
