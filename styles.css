@@ -481,9 +481,9 @@ a{
 /*boton rojo*/
 
 .custom-buttonAzul{
-    background-color: #6755a5; /* Color rosa de fondo */
+    background-color: #3a1fb4; /* Color rosa de fondo */
     color: #9d9bc5; /* Texto en rojo */
-    border: 2px solid #3c2d70; /* Borde rojo */
+    border: 2px solid #130c2c; /* Borde rojo */
     border-radius: 20px; /* Bordes redondeados */
     padding: 10px 20px; /* Espaciado interno */
     font-size: 16px; /* Tamaño del texto */
@@ -566,4 +566,79 @@ a{
   .btn-ingresar:hover {
     background-color: #f0f0f0; /* Cambio de color al pasar el cursor */
   }
+
+
+
+
+
+/*Media Queries*/
+
+
+@media (max-width: 600px) { 
+  
+    body { 
+    font-size: 16px; 
+    } 
+    .navbar { 
+    flex-direction: column; 
+    align-items: center; 
+    flex-wrap: wrap;
+    } 
+      
+    .sidebar { 
+    display: none; 
+    } 
+    }
+  
+  
+  
+  
+  @media (min-width: 600px) and (max-width: 1024px) { 
+    
+    body { 
+    font-size: 18px; 
+    } 
+    
+    .navbar { 
+    flex-direction: row; 
+    justify-content: space-around; 
+    } 
+    
+    .sidebar { 
+    display: block; width: 30%; 
+    } 
+        
+    .main-content { 
+    width: 70%; 
+    } 
+    }
+  
+  
+  
+  @media (min-width: 1024px) { 
+    
+    body { 
+    font-size: 20px; } 
+    
+    .container { 
+    display: flex; 
+    flex-direction: row; 
+    flex-wrap: nowrap; 
+    } 
+    
+    .sidebar { 
+    width: 25%; } 
+    
+    .main-content { 
+    width: 75%; 
+    } 
+    }
+  
+
+
+
+
+
+
+
 
