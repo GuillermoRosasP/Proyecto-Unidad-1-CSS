@@ -138,65 +138,98 @@
 
 /*Media Queries*/
 
+@media (max-width: 600px) {
 
-@media (max-width: 600px) { 
-  
-  body { 
-  font-size: 16px; 
-  } 
-  .navbar { 
-  flex-direction: column; 
-  align-items: center; 
-  flex-wrap: wrap;
-  } 
+  nav{
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: 50%;
+    justify-items: center;
+    justify-content: center;
+
+  }
+
+  nav img{
+    width: 40vw;
     
-  .sidebar { 
-  display: none; 
-  } 
   }
 
-
-
-
-@media (min-width: 600px) and (max-width: 1024px) { 
-  
-  body { 
-  font-size: 18px; 
-  } 
-  
-  .navbar { 
-  flex-direction: row; 
-  justify-content: space-around; 
-  } 
-  
-  .sidebar { 
-  display: block; width: 30%; 
-  } 
-      
-  .main-content { 
-  width: 70%; 
-  } 
+  body {
+      font-size: 16px;
   }
 
-
-
-@media (min-width: 1024px) { 
-  
-  body { 
-  font-size: 20px; } 
-  
-  .container { 
-  display: flex; 
-  flex-direction: row; 
-  flex-wrap: nowrap; 
-  } 
-  
-  .sidebar { 
-  width: 25%; } 
-  
-  .main-content { 
-  width: 75%; 
-  } 
+  .seccionbebidas, .seccionalimentos, .seccioncafeengrano {
+      flex-direction: column;
+      align-items: center;
   }
+
+  .button {
+      width: 120px; /* Tamaño reducido para pantallas pequeñas */
+      height: 120px;
+  }
+
+  .button img {
+      width: 80%;
+  }
+
+  footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    margin-right: 5%;
+  }
+  
+  #Footer-Index{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 50%;
+  }
+
+  #footer-mediaqueries{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    margin-left: 80%;
+  }
+
+  #seccionMenu{
+    margin-top: 50%;
+  }
+
+  .button{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10%;
+  }
+}
+
+@media (min-width: 600px) and (max-width: 1024px) {
+  body {
+      font-size: 18px;
+      margin-top: 30%;
+  }
+
+  nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-items: center;
+    justify-content: center;
+  }
+
+  .seccionbebidas {
+      gap: 5%;
+  }
+
+  .button {
+      width: 140px;
+      height: 140px;
+      margin-bottom: 10%;
+  }
+}
+
 
 
