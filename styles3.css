@@ -1,0 +1,88 @@
+
+
+/*Media Queries*/
+
+/* Estilo para pantalla pequeñas (móviles) */
+@media (max-width: 600px) {
+
+    nav{
+      display: flex;
+      flex-wrap: wrap;
+      margin-right: 60%;
+      margin-left: 50%;
+      justify-content: center;
+  
+    }
+  
+    nav img{
+      width: 50px;
+      display: flex;
+      justify-items: center;
+      
+    }
+  
+    body {
+        font-size: 8px;
+    }
+  
+    footer{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      justify-items: center;
+      
+    }
+    
+    #Footer-Index{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      
+    }
+  
+    #footer-mediaqueries{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      text-align: center;
+      
+    }
+
+    #imagen-final img{
+        width: 200px;
+    }
+
+    #Seccion-final-index{
+        display: flex;
+        justify-content: center;
+        margin-left: 10%;
+    }
+
+    #parrafo-final{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+
+  }
+
+
+  /*Estilo para pantallas grandes como tablets o computadoras*/
+@media (min-width: 600px) and (max-width: 1024px){
+    body {
+        font-size: 18px;
+        margin-top: 30%;
+    }
+  
+    nav {
+      display: flex;
+      flex-wrap: wrap;
+      justify-items: center;
+      justify-content: center;
+    }
+  
+}
+
+
+

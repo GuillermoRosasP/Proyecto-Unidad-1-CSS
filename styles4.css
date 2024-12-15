@@ -1,0 +1,182 @@
+
+/*diseño responsivo*/
+
+/* Estilo para pantalla pequeñas (móviles) */
+@media (max-width: 600px){
+    nav{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-items: center;
+        justify-content: center;
+        position: relative;
+        margin-right: 40%;
+    
+      }
+    
+      nav img{
+        margin-left: 30%;
+        width: 40vw;
+        
+      }
+    
+      body {
+
+          font-size: 16px;
+      }
+
+      footer{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        justify-items: center;
+        
+      }
+      
+      #Footer-Index{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+      }
+
+      #seccion-fija{
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        margin-top: 80%;
+        padding: 70%;
+      }
+    
+      #footer-mediaqueries{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        text-align: center;
+        
+      }
+
+      #elfooter{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        margin-left: 20%;
+      }
+
+      #accesibilidad{
+        margin-left: 50%;
+      }
+  
+      #imagen-final img{
+          width: 200px;
+      }
+  
+      #Seccion-final-index{
+          display: flex;
+          justify-content: center;
+          margin-left: 10%;
+      }
+  
+      #parrafo-final{
+          display: flex;
+          justify-content: center;
+          text-align: center;
+      }
+
+      #titulo-cerca-al-nav{
+        
+      }
+}
+    
+
+
+/*Estilo para pantallas grandes como tablets o computadoras*/
+@media (min-width: 600px) and (max-width: 1200px){
+    nav {
+        display: flex;
+        flex-wrap: wrap;
+        justify-items: center;
+        justify-content: center;
+        margin: 0%;
+      }
+
+      nav img{
+        width: 200px;
+      }
+
+      #izquierda{
+        display: flex;
+        justify-items: left;
+        justify-content: left;
+
+      }
+
+    body{
+        display: flex;
+        flex-direction: column;
+        
+        
+    }
+
+    .Seccion-fija{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20%;
+        margin-right: 20%;
+        padding-right: 100%;
+        margin-bottom: 20%;
+    }
+
+    #titulo-cerca-al-nav{
+        margin-top: 80%;
+        margin-right: 50%;
+        margin-left: 0%;
+    }
+
+    .BodyRewards{
+        
+        margin-right: 50%;
+        margin-left: 0%;
+    }
+
+    #Secciones-pequeñas{
+        
+        margin-right: 50%;
+        margin-left: 0%;
+    }
+
+    #imagen-final{
+        display: flex;
+        align-items: left;
+        justify-content: left;
+        justify-items: left;
+        margin-right: 50%;
+        margin-left: 0%;
+        
+    }
+
+    
+
+    #seccionfinal{
+        
+        margin-right: 50%;
+        margin-left: 0%;
+    }
+
+    #Redes-sociales{
+        
+        margin-right: 50%;
+        margin-left: 0%;
+    }
+
+    #elfooter{
+        
+        margin-right: 50%;
+        margin-left: 10%;
+
+    }
+
+}
+
